@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "STM32-BMLITE",
+            "defines": ["BMLITE_ON_UART", "BMLITE_USE_CALLBACK"],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "${default}",
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m4",
+                "-mthumb",
+                "-mfloat-abi=hard"
+            ],
+            "includePath" : ["${workspaceFolder}/**"]
+       }
+    ],
+    "version": 4
+}
